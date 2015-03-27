@@ -7,11 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
-
 <!--Renders a navbar from views/layouts/_header.html.erb which is a component from bootstrap-->
 <%= render 'layouts/header' %>
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 <%= yield %>
 
 </body>
